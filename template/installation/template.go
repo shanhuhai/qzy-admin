@@ -64,10 +64,6 @@ var List = map[string]string{"installation": `{{define "installation"}}
                                 </div>
                             </div>
                         </section>
-                        <!-- Copyright -->
-                        <div class="copyright">Copyright © 2018.Company name All rights reserved.<a target="_blank"
-                                                                                                    href="https://github.com/chenhg5/go-admin">GoAdmin</a>
-                        </div>
                     </div>
 
                 </div>
@@ -130,10 +126,6 @@ var List = map[string]string{"installation": `{{define "installation"}}
                                 </div>
                             </div>
                         </section>
-                        <!-- Copyright -->
-                        <div class="copyright">Copyright © 2018.Company name All rights reserved.<a target="_blank"
-                                                                                                    href="https://github.com/chenhg5/go-admin">GoAdmin</a>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -400,10 +392,6 @@ var List = map[string]string{"installation": `{{define "installation"}}
                                 </div>
                             </div>
                         </section>
-                        <!-- Copyright -->
-                        <div class="copyright">Copyright © 2018.Company name All rights reserved.<a target="_blank"
-                                                                                                    href="https://github.com/chenhg5/go-admin">GoAdmin</a>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -444,10 +432,6 @@ var List = map[string]string{"installation": `{{define "installation"}}
                                 </div>
                             </div>
                         </section>
-                        <!-- Copyright -->
-                        <div class="copyright">Copyright © 2018.Company name All rights reserved.<a target="_blank"
-                                                                                                    href="https://github.com/chenhg5/go-admin">GoAdmin</a>
-                        </div>
                     </div>
 
                 </div>
