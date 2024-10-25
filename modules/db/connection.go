@@ -81,13 +81,6 @@ func GetConnectionByDriver(driver string) Connection {
 	case "mysql":
 		return GetMysqlDB()
 	case "mssql":
-		return GetMssqlDB()
-	case "sqlite":
-		return GetSqliteDB()
-	case "postgresql":
-		return GetPostgresqlDB()
-	case "oceanbase":
-		return GetOceanBaseDB()
 	default:
 		panic("driver not found!")
 	}
