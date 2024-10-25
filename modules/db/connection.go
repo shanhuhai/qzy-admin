@@ -80,7 +80,6 @@ func GetConnectionByDriver(driver string) Connection {
 	switch driver {
 	case "mysql":
 		return GetMysqlDB()
-	case "mssql":
 	default:
 		panic("driver not found!")
 	}
