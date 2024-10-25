@@ -1,12 +1,12 @@
 package ui
 
 import (
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/modules/language"
-	"github.com/GoAdminGroup/go-admin/modules/service"
-	"github.com/GoAdminGroup/go-admin/template/icon"
-	"github.com/GoAdminGroup/go-admin/template/types"
-	"github.com/GoAdminGroup/go-admin/template/types/action"
+	"github.com/hongweikkx/qzy-admin/modules/config"
+	"github.com/hongweikkx/qzy-admin/modules/language"
+	"github.com/hongweikkx/qzy-admin/modules/service"
+	"github.com/hongweikkx/qzy-admin/template/icon"
+	"github.com/hongweikkx/qzy-admin/template/types"
+	"github.com/hongweikkx/qzy-admin/template/types/action"
 )
 
 type Service struct {

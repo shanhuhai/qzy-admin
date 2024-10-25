@@ -5,7 +5,7 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/GoAdminGroup/go-admin/modules/config"
+	"github.com/hongweikkx/qzy-admin/modules/config"
 	"xorm.io/xorm"
 )
 

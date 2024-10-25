@@ -7,7 +7,7 @@ package dialect
 import (
 	"strings"
 
-	"github.com/GoAdminGroup/go-admin/modules/config"
+	"github.com/hongweikkx/qzy-admin/modules/config"
 )
 
 // Dialect is methods set of different driver.

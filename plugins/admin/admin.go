@@ -1,18 +1,18 @@
 package admin
 
 import (
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/modules/service"
-	"github.com/GoAdminGroup/go-admin/modules/system"
-	"github.com/GoAdminGroup/go-admin/modules/utils"
-	"github.com/GoAdminGroup/go-admin/plugins"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/controller"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/table"
-	"github.com/GoAdminGroup/go-admin/template/types"
-	"github.com/GoAdminGroup/go-admin/template/types/action"
-	_ "github.com/GoAdminGroup/go-admin/template/types/display"
+	"github.com/hongweikkx/qzy-admin/context"
+	"github.com/hongweikkx/qzy-admin/modules/config"
+	"github.com/hongweikkx/qzy-admin/modules/service"
+	"github.com/hongweikkx/qzy-admin/modules/system"
+	"github.com/hongweikkx/qzy-admin/modules/utils"
+	"github.com/hongweikkx/qzy-admin/plugins"
+	"github.com/hongweikkx/qzy-admin/plugins/admin/controller"
+	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/guard"
+	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/table"
+	"github.com/hongweikkx/qzy-admin/template/types"
+	"github.com/hongweikkx/qzy-admin/template/types/action"
+	_ "github.com/hongweikkx/qzy-admin/template/types/display"
 )
 
 // Admin is a GoAdmin plugin.
