@@ -11,20 +11,20 @@ import (
 	"strings"
 	"time"
 
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/config"
+	"github.com/hongweikkx/qzy-admin/context"
+	"github.com/hongweikkx/qzy-admin/modules/config"
 
-	"github.com/GoAdminGroup/go-admin/modules/db"
-	"github.com/GoAdminGroup/go-admin/modules/db/dialect"
-	errs "github.com/GoAdminGroup/go-admin/modules/errors"
-	"github.com/GoAdminGroup/go-admin/modules/language"
-	"github.com/GoAdminGroup/go-admin/modules/logger"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/constant"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/form"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/paginator"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/parameter"
-	"github.com/GoAdminGroup/go-admin/template/types"
+	"github.com/hongweikkx/qzy-admin/modules/db"
+	"github.com/hongweikkx/qzy-admin/modules/db/dialect"
+	errs "github.com/hongweikkx/qzy-admin/modules/errors"
+	"github.com/hongweikkx/qzy-admin/modules/language"
+	"github.com/hongweikkx/qzy-admin/modules/logger"
+	"github.com/hongweikkx/qzy-admin/plugins/admin/modules"
+	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/constant"
+	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/form"
+	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/paginator"
+	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/parameter"
+	"github.com/hongweikkx/qzy-admin/template/types"
 )
 
 // DefaultTable is an implementation of table.Table

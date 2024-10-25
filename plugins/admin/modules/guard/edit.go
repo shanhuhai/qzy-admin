@@ -8,17 +8,17 @@ import (
 
 	"github.com/hongweikkx/qzy-admin/template/types"
 
-	"github.com/GoAdminGroup/go-admin/modules/auth"
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/modules/db"
-	"github.com/GoAdminGroup/go-admin/modules/errors"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/constant"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/form"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/parameter"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/response"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/table"
-	"github.com/GoAdminGroup/go-admin/template"
 	"github.com/hongweikkx/qzy-admin/context"
+	"github.com/hongweikkx/qzy-admin/modules/auth"
+	"github.com/hongweikkx/qzy-admin/modules/config"
+	"github.com/hongweikkx/qzy-admin/modules/db"
+	"github.com/hongweikkx/qzy-admin/modules/errors"
+	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/constant"
+	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/form"
+	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/parameter"
+	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/response"
+	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/table"
+	"github.com/hongweikkx/qzy-admin/template"
 )
 
 type ShowFormParam struct {

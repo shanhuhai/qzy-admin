@@ -6,23 +6,23 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/GoAdminGroup/go-admin/modules/logger"
+	"github.com/hongweikkx/qzy-admin/modules/logger"
 
-	"github.com/GoAdminGroup/go-admin/template"
+	"github.com/hongweikkx/qzy-admin/template"
 
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/response"
+	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/response"
 
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/auth"
-	"github.com/GoAdminGroup/go-admin/modules/file"
-	"github.com/GoAdminGroup/go-admin/modules/language"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/constant"
-	form2 "github.com/GoAdminGroup/go-admin/plugins/admin/modules/form"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/parameter"
-	"github.com/GoAdminGroup/go-admin/template/types"
-	"github.com/GoAdminGroup/go-admin/template/types/form"
+	"github.com/hongweikkx/qzy-admin/context"
+	"github.com/hongweikkx/qzy-admin/modules/auth"
+	"github.com/hongweikkx/qzy-admin/modules/file"
+	"github.com/hongweikkx/qzy-admin/modules/language"
+	"github.com/hongweikkx/qzy-admin/plugins/admin/modules"
+	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/constant"
+	form2 "github.com/hongweikkx/qzy-admin/plugins/admin/modules/form"
+	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/guard"
+	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/parameter"
+	"github.com/hongweikkx/qzy-admin/template/types"
+	"github.com/hongweikkx/qzy-admin/template/types/form"
 )
 
 // ShowForm show form page.

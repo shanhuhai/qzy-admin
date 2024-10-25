@@ -11,7 +11,6 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/GoAdminGroup/go-admin/template/types"
 	"github.com/gin-gonic/gin"
 	"github.com/hongweikkx/qzy-admin/adapter"
 	"github.com/hongweikkx/qzy-admin/context"
@@ -20,6 +19,7 @@ import (
 	"github.com/hongweikkx/qzy-admin/plugins"
 	"github.com/hongweikkx/qzy-admin/plugins/admin/models"
 	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/constant"
+	"github.com/hongweikkx/qzy-admin/template/types"
 )
 
 // Gin structure value is a Gin GoAdmin adapter.
