@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/hongweikkx/qzy-admin/modules/db"
+	"github.com/shanhuhai/qzy-admin/modules/db"
 )
 
 // PermissionModel is permission model structure.

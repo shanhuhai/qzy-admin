@@ -4,7 +4,7 @@ import (
 	"html/template"
 	"strings"
 
-	"github.com/hongweikkx/qzy-admin/modules/config"
+	"github.com/shanhuhai/qzy-admin/modules/config"
 	"golang.org/x/text/language"
 )
 

@@ -3,8 +3,8 @@ package action
 import (
 	"html/template"
 
-	"github.com/hongweikkx/qzy-admin/context"
-	"github.com/hongweikkx/qzy-admin/modules/utils"
+	"github.com/shanhuhai/qzy-admin/context"
+	"github.com/shanhuhai/qzy-admin/modules/utils"
 )
 
 type JumpAction struct {

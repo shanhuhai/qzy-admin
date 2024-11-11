@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/hongweikkx/qzy-admin/plugins/admin/modules"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/constant"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/form"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/modules"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/modules/constant"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/modules/form"
 )
 
 type Parameters struct {

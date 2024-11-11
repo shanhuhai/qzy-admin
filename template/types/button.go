@@ -4,10 +4,10 @@ import (
 	"html/template"
 	"net/url"
 
-	"github.com/hongweikkx/qzy-admin/context"
-	"github.com/hongweikkx/qzy-admin/modules/language"
-	"github.com/hongweikkx/qzy-admin/modules/utils"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/models"
+	"github.com/shanhuhai/qzy-admin/context"
+	"github.com/shanhuhai/qzy-admin/modules/language"
+	"github.com/shanhuhai/qzy-admin/modules/utils"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/models"
 )
 
 type Button interface {

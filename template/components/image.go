@@ -3,8 +3,8 @@ package components
 import (
 	"html/template"
 
-	"github.com/hongweikkx/qzy-admin/plugins/admin/modules"
-	"github.com/hongweikkx/qzy-admin/template/types"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/modules"
+	"github.com/shanhuhai/qzy-admin/template/types"
 )
 
 type ImgAttribute struct {

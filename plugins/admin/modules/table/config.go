@@ -1,7 +1,7 @@
 package table
 
 import (
-	"github.com/hongweikkx/qzy-admin/modules/db"
+	"github.com/shanhuhai/qzy-admin/modules/db"
 )
 
 type Config struct {

@@ -10,17 +10,17 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/hongweikkx/qzy-admin/context"
-	c "github.com/hongweikkx/qzy-admin/modules/config"
-	errors2 "github.com/hongweikkx/qzy-admin/modules/errors"
-	"github.com/hongweikkx/qzy-admin/modules/language"
-	"github.com/hongweikkx/qzy-admin/modules/logger"
-	"github.com/hongweikkx/qzy-admin/modules/menu"
-	"github.com/hongweikkx/qzy-admin/modules/system"
-	"github.com/hongweikkx/qzy-admin/modules/utils"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/models"
-	"github.com/hongweikkx/qzy-admin/template/login"
-	"github.com/hongweikkx/qzy-admin/template/types"
+	"github.com/shanhuhai/qzy-admin/context"
+	c "github.com/shanhuhai/qzy-admin/modules/config"
+	errors2 "github.com/shanhuhai/qzy-admin/modules/errors"
+	"github.com/shanhuhai/qzy-admin/modules/language"
+	"github.com/shanhuhai/qzy-admin/modules/logger"
+	"github.com/shanhuhai/qzy-admin/modules/menu"
+	"github.com/shanhuhai/qzy-admin/modules/system"
+	"github.com/shanhuhai/qzy-admin/modules/utils"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/models"
+	"github.com/shanhuhai/qzy-admin/template/login"
+	"github.com/shanhuhai/qzy-admin/template/types"
 	"golang.org/x/text/cases"
 	textLang "golang.org/x/text/language"
 )
@@ -280,8 +280,8 @@ type Component interface {
 	// {{.UrlPrefix}}/assets/login/css/bootstrap.min.css => login/css/bootstrap.min.css
 	//
 	// See:
-	// https://github.com/hongweikkx/qzy-admin/blob/master/template/login/theme1.tmpl#L32
-	// https://github.com/hongweikkx/qzy-admin/blob/master/template/login/list.go
+	// https://github.com/shanhuhai/qzy-admin/blob/master/template/login/theme1.tmpl#L32
+	// https://github.com/shanhuhai/qzy-admin/blob/master/template/login/list.go
 	GetAssetList() []string
 
 	// GetAsset return the asset content according to the corresponding url suffix.

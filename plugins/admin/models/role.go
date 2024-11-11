@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/hongweikkx/qzy-admin/modules/db"
-	"github.com/hongweikkx/qzy-admin/modules/db/dialect"
+	"github.com/shanhuhai/qzy-admin/modules/db"
+	"github.com/shanhuhai/qzy-admin/modules/db/dialect"
 )
 
 // RoleModel is role model structure.

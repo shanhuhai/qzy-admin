@@ -12,25 +12,25 @@ import (
 	"time"
 
 	"github.com/GoAdminGroup/html"
-	"github.com/hongweikkx/qzy-admin/context"
-	"github.com/hongweikkx/qzy-admin/modules/collection"
-	"github.com/hongweikkx/qzy-admin/modules/config"
-	"github.com/hongweikkx/qzy-admin/modules/db"
-	"github.com/hongweikkx/qzy-admin/modules/db/dialect"
-	errs "github.com/hongweikkx/qzy-admin/modules/errors"
-	"github.com/hongweikkx/qzy-admin/modules/language"
-	"github.com/hongweikkx/qzy-admin/modules/logger"
-	"github.com/hongweikkx/qzy-admin/modules/ui"
-	"github.com/hongweikkx/qzy-admin/modules/utils"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/models"
-	form2 "github.com/hongweikkx/qzy-admin/plugins/admin/modules/form"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/parameter"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/tools"
-	"github.com/hongweikkx/qzy-admin/template"
-	"github.com/hongweikkx/qzy-admin/template/types"
-	"github.com/hongweikkx/qzy-admin/template/types/action"
-	"github.com/hongweikkx/qzy-admin/template/types/form"
-	selection "github.com/hongweikkx/qzy-admin/template/types/form/select"
+	"github.com/shanhuhai/qzy-admin/context"
+	"github.com/shanhuhai/qzy-admin/modules/collection"
+	"github.com/shanhuhai/qzy-admin/modules/config"
+	"github.com/shanhuhai/qzy-admin/modules/db"
+	"github.com/shanhuhai/qzy-admin/modules/db/dialect"
+	errs "github.com/shanhuhai/qzy-admin/modules/errors"
+	"github.com/shanhuhai/qzy-admin/modules/language"
+	"github.com/shanhuhai/qzy-admin/modules/logger"
+	"github.com/shanhuhai/qzy-admin/modules/ui"
+	"github.com/shanhuhai/qzy-admin/modules/utils"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/models"
+	form2 "github.com/shanhuhai/qzy-admin/plugins/admin/modules/form"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/modules/parameter"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/modules/tools"
+	"github.com/shanhuhai/qzy-admin/template"
+	"github.com/shanhuhai/qzy-admin/template/types"
+	"github.com/shanhuhai/qzy-admin/template/types/action"
+	"github.com/shanhuhai/qzy-admin/template/types/form"
+	selection "github.com/shanhuhai/qzy-admin/template/types/form/select"
 	"golang.org/x/crypto/bcrypt"
 	"golang.org/x/text/cases"
 	textLang "golang.org/x/text/language"
@@ -1465,10 +1465,10 @@ func (s *SystemTable) GetGenerateForm(ctx *context.Context) (generateTool Table)
 			{Text: "time", Value: "time"},
 			{Text: "log", Value: "log"},
 			{Text: "fmt", Value: "fmt"},
-			{Text: "github.com/hongweikkx/qzy-admin/modules/db/dialect", Value: "github.com/hongweikkx/qzy-admin/modules/db/dialect"},
-			{Text: "github.com/hongweikkx/qzy-admin/modules/db", Value: "github.com/hongweikkx/qzy-admin/modules/db"},
-			{Text: "github.com/hongweikkx/qzy-admin/modules/language", Value: "github.com/hongweikkx/qzy-admin/modules/language"},
-			{Text: "github.com/hongweikkx/qzy-admin/modules/logger", Value: "github.com/hongweikkx/qzy-admin/modules/logger"},
+			{Text: "github.com/shanhuhai/qzy-admin/modules/db/dialect", Value: "github.com/shanhuhai/qzy-admin/modules/db/dialect"},
+			{Text: "github.com/shanhuhai/qzy-admin/modules/db", Value: "github.com/shanhuhai/qzy-admin/modules/db"},
+			{Text: "github.com/shanhuhai/qzy-admin/modules/language", Value: "github.com/shanhuhai/qzy-admin/modules/language"},
+			{Text: "github.com/shanhuhai/qzy-admin/modules/logger", Value: "github.com/shanhuhai/qzy-admin/modules/logger"},
 		}).
 		FieldDefault("").
 		FieldOptionExt(map[string]interface{}{

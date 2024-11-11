@@ -3,7 +3,7 @@ package file
 import (
 	"mime/multipart"
 
-	"github.com/hongweikkx/qzy-admin/modules/config"
+	"github.com/shanhuhai/qzy-admin/modules/config"
 )
 
 // LocalFileUploader is an Uploader of local file engine.

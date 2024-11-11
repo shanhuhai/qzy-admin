@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	_ "github.com/GoAdminGroup/themes/sword"
-	"github.com/hongweikkx/qzy-admin/modules/config"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/parameter"
+	"github.com/shanhuhai/qzy-admin/modules/config"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/modules/parameter"
 )
 
 func TestGet(t *testing.T) {

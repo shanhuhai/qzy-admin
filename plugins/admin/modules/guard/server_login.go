@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"io/ioutil"
 
-	"github.com/hongweikkx/qzy-admin/context"
-	"github.com/hongweikkx/qzy-admin/modules/logger"
+	"github.com/shanhuhai/qzy-admin/context"
+	"github.com/shanhuhai/qzy-admin/modules/logger"
 )
 
 type ServerLoginParam struct {

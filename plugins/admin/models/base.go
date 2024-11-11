@@ -3,7 +3,7 @@ package models
 import (
 	"database/sql"
 
-	"github.com/hongweikkx/qzy-admin/modules/db"
+	"github.com/shanhuhai/qzy-admin/modules/db"
 )
 
 // Base is base model structure.

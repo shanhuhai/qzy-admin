@@ -1,7 +1,7 @@
 package constant
 
 import (
-	"github.com/hongweikkx/qzy-admin/modules/constant"
+	"github.com/shanhuhai/qzy-admin/modules/constant"
 )
 
 const (

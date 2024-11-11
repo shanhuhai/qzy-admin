@@ -4,9 +4,9 @@ import (
 	"html/template"
 	"strconv"
 
-	"github.com/hongweikkx/qzy-admin/context"
-	"github.com/hongweikkx/qzy-admin/modules/language"
-	"github.com/hongweikkx/qzy-admin/modules/utils"
+	"github.com/shanhuhai/qzy-admin/context"
+	"github.com/shanhuhai/qzy-admin/modules/language"
+	"github.com/shanhuhai/qzy-admin/modules/utils"
 )
 
 type DefaultSelection struct {

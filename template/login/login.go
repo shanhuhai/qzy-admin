@@ -5,10 +5,10 @@ import (
 	"html/template"
 	"strings"
 
-	"github.com/hongweikkx/qzy-admin/template/types"
+	"github.com/shanhuhai/qzy-admin/template/types"
 
-	"github.com/hongweikkx/qzy-admin/modules/language"
-	"github.com/hongweikkx/qzy-admin/modules/logger"
+	"github.com/shanhuhai/qzy-admin/modules/language"
+	"github.com/shanhuhai/qzy-admin/modules/logger"
 )
 
 type Login struct {

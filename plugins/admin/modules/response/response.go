@@ -3,15 +3,15 @@ package response
 import (
 	"net/http"
 
-	"github.com/hongweikkx/qzy-admin/context"
-	"github.com/hongweikkx/qzy-admin/modules/auth"
-	"github.com/hongweikkx/qzy-admin/modules/config"
-	"github.com/hongweikkx/qzy-admin/modules/db"
-	"github.com/hongweikkx/qzy-admin/modules/errors"
-	"github.com/hongweikkx/qzy-admin/modules/language"
-	"github.com/hongweikkx/qzy-admin/modules/menu"
-	"github.com/hongweikkx/qzy-admin/template"
-	"github.com/hongweikkx/qzy-admin/template/types"
+	"github.com/shanhuhai/qzy-admin/context"
+	"github.com/shanhuhai/qzy-admin/modules/auth"
+	"github.com/shanhuhai/qzy-admin/modules/config"
+	"github.com/shanhuhai/qzy-admin/modules/db"
+	"github.com/shanhuhai/qzy-admin/modules/errors"
+	"github.com/shanhuhai/qzy-admin/modules/language"
+	"github.com/shanhuhai/qzy-admin/modules/menu"
+	"github.com/shanhuhai/qzy-admin/template"
+	"github.com/shanhuhai/qzy-admin/template/types"
 )
 
 func Ok(ctx *context.Context) {

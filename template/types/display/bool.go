@@ -4,9 +4,9 @@ import (
 	"strings"
 
 	"github.com/GoAdminGroup/html"
-	"github.com/hongweikkx/qzy-admin/context"
-	"github.com/hongweikkx/qzy-admin/template/icon"
-	"github.com/hongweikkx/qzy-admin/template/types"
+	"github.com/shanhuhai/qzy-admin/context"
+	"github.com/shanhuhai/qzy-admin/template/icon"
+	"github.com/shanhuhai/qzy-admin/template/types"
 )
 
 type Bool struct {

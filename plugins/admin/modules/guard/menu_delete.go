@@ -1,8 +1,8 @@
 package guard
 
 import (
-	"github.com/hongweikkx/qzy-admin/context"
-	"github.com/hongweikkx/qzy-admin/modules/errors"
+	"github.com/shanhuhai/qzy-admin/context"
+	"github.com/shanhuhai/qzy-admin/modules/errors"
 )
 
 type MenuDeleteParam struct {

@@ -3,9 +3,9 @@ package guard
 import (
 	"strings"
 
-	"github.com/hongweikkx/qzy-admin/context"
-	"github.com/hongweikkx/qzy-admin/modules/errors"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/table"
+	"github.com/shanhuhai/qzy-admin/context"
+	"github.com/shanhuhai/qzy-admin/modules/errors"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/modules/table"
 )
 
 type ExportParam struct {

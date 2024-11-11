@@ -1,12 +1,12 @@
 package ui
 
 import (
-	"github.com/hongweikkx/qzy-admin/modules/config"
-	"github.com/hongweikkx/qzy-admin/modules/language"
-	"github.com/hongweikkx/qzy-admin/modules/service"
-	"github.com/hongweikkx/qzy-admin/template/icon"
-	"github.com/hongweikkx/qzy-admin/template/types"
-	"github.com/hongweikkx/qzy-admin/template/types/action"
+	"github.com/shanhuhai/qzy-admin/modules/config"
+	"github.com/shanhuhai/qzy-admin/modules/language"
+	"github.com/shanhuhai/qzy-admin/modules/service"
+	"github.com/shanhuhai/qzy-admin/template/icon"
+	"github.com/shanhuhai/qzy-admin/template/types"
+	"github.com/shanhuhai/qzy-admin/template/types/action"
 )
 
 type Service struct {

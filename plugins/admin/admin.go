@@ -1,18 +1,18 @@
 package admin
 
 import (
-	"github.com/hongweikkx/qzy-admin/context"
-	"github.com/hongweikkx/qzy-admin/modules/config"
-	"github.com/hongweikkx/qzy-admin/modules/service"
-	"github.com/hongweikkx/qzy-admin/modules/system"
-	"github.com/hongweikkx/qzy-admin/modules/utils"
-	"github.com/hongweikkx/qzy-admin/plugins"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/controller"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/guard"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/table"
-	"github.com/hongweikkx/qzy-admin/template/types"
-	"github.com/hongweikkx/qzy-admin/template/types/action"
-	_ "github.com/hongweikkx/qzy-admin/template/types/display"
+	"github.com/shanhuhai/qzy-admin/context"
+	"github.com/shanhuhai/qzy-admin/modules/config"
+	"github.com/shanhuhai/qzy-admin/modules/service"
+	"github.com/shanhuhai/qzy-admin/modules/system"
+	"github.com/shanhuhai/qzy-admin/modules/utils"
+	"github.com/shanhuhai/qzy-admin/plugins"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/controller"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/modules/guard"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/modules/table"
+	"github.com/shanhuhai/qzy-admin/template/types"
+	"github.com/shanhuhai/qzy-admin/template/types/action"
+	_ "github.com/shanhuhai/qzy-admin/template/types/display"
 )
 
 // Admin is a GoAdmin plugin.

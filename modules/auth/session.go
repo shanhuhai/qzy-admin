@@ -6,12 +6,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/hongweikkx/qzy-admin/context"
-	"github.com/hongweikkx/qzy-admin/modules/config"
-	"github.com/hongweikkx/qzy-admin/modules/db"
-	"github.com/hongweikkx/qzy-admin/modules/db/dialect"
-	"github.com/hongweikkx/qzy-admin/modules/logger"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/modules"
+	"github.com/shanhuhai/qzy-admin/context"
+	"github.com/shanhuhai/qzy-admin/modules/config"
+	"github.com/shanhuhai/qzy-admin/modules/db"
+	"github.com/shanhuhai/qzy-admin/modules/db/dialect"
+	"github.com/shanhuhai/qzy-admin/modules/logger"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/modules"
 )
 
 const DefaultCookieKey = "go_admin_session"

@@ -3,12 +3,12 @@ package models
 import (
 	"database/sql"
 
-	"github.com/hongweikkx/qzy-admin/modules/utils"
+	"github.com/shanhuhai/qzy-admin/modules/utils"
 
-	"github.com/hongweikkx/qzy-admin/modules/collection"
-	"github.com/hongweikkx/qzy-admin/modules/db"
-	"github.com/hongweikkx/qzy-admin/modules/db/dialect"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/form"
+	"github.com/shanhuhai/qzy-admin/modules/collection"
+	"github.com/shanhuhai/qzy-admin/modules/db"
+	"github.com/shanhuhai/qzy-admin/modules/db/dialect"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/modules/form"
 )
 
 // SiteModel is role model structure.

@@ -3,7 +3,7 @@ package action
 import (
 	"html/template"
 
-	"github.com/hongweikkx/qzy-admin/context"
+	"github.com/shanhuhai/qzy-admin/context"
 )
 
 type JumpSelectBoxAction struct {

@@ -8,7 +8,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/hongweikkx/qzy-admin/context"
+	"github.com/shanhuhai/qzy-admin/context"
 )
 
 var (

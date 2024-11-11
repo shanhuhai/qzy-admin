@@ -13,9 +13,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/hongweikkx/qzy-admin/modules/logger"
-	"github.com/hongweikkx/qzy-admin/modules/utils"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/form"
+	"github.com/shanhuhai/qzy-admin/modules/logger"
+	"github.com/shanhuhai/qzy-admin/modules/utils"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/modules/form"
 	"gopkg.in/ini.v1"
 	"gopkg.in/yaml.v2"
 )

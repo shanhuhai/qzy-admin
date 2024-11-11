@@ -4,17 +4,17 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/hongweikkx/qzy-admin/context"
-	"github.com/hongweikkx/qzy-admin/modules/config"
-	"github.com/hongweikkx/qzy-admin/modules/constant"
-	"github.com/hongweikkx/qzy-admin/modules/db"
-	"github.com/hongweikkx/qzy-admin/modules/errors"
-	"github.com/hongweikkx/qzy-admin/modules/language"
-	"github.com/hongweikkx/qzy-admin/modules/logger"
-	"github.com/hongweikkx/qzy-admin/modules/page"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/models"
-	template2 "github.com/hongweikkx/qzy-admin/template"
-	"github.com/hongweikkx/qzy-admin/template/types"
+	"github.com/shanhuhai/qzy-admin/context"
+	"github.com/shanhuhai/qzy-admin/modules/config"
+	"github.com/shanhuhai/qzy-admin/modules/constant"
+	"github.com/shanhuhai/qzy-admin/modules/db"
+	"github.com/shanhuhai/qzy-admin/modules/errors"
+	"github.com/shanhuhai/qzy-admin/modules/language"
+	"github.com/shanhuhai/qzy-admin/modules/logger"
+	"github.com/shanhuhai/qzy-admin/modules/page"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/models"
+	template2 "github.com/shanhuhai/qzy-admin/template"
+	"github.com/shanhuhai/qzy-admin/template/types"
 )
 
 // Invoker contains the callback functions which are used

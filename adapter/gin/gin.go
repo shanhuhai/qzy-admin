@@ -8,14 +8,14 @@ import (
 	"strings"
 
 	"github.com/gin-gonic/gin"
-	"github.com/hongweikkx/qzy-admin/adapter"
-	"github.com/hongweikkx/qzy-admin/context"
-	"github.com/hongweikkx/qzy-admin/engine"
-	"github.com/hongweikkx/qzy-admin/modules/config"
-	"github.com/hongweikkx/qzy-admin/plugins"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/models"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/constant"
-	"github.com/hongweikkx/qzy-admin/template/types"
+	"github.com/shanhuhai/qzy-admin/adapter"
+	"github.com/shanhuhai/qzy-admin/context"
+	"github.com/shanhuhai/qzy-admin/engine"
+	"github.com/shanhuhai/qzy-admin/modules/config"
+	"github.com/shanhuhai/qzy-admin/plugins"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/models"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/modules/constant"
+	"github.com/shanhuhai/qzy-admin/template/types"
 )
 
 // Gin structure value is a Gin GoAdmin adapter.

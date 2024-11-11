@@ -3,9 +3,9 @@ package guard
 import (
 	"net/http"
 
-	"github.com/hongweikkx/qzy-admin/context"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/form"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/table"
+	"github.com/shanhuhai/qzy-admin/context"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/modules/form"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/modules/table"
 )
 
 type UpdateParam struct {

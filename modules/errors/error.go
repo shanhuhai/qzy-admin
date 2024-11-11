@@ -4,8 +4,8 @@ import (
 	"errors"
 	"html/template"
 
-	"github.com/hongweikkx/qzy-admin/modules/language"
-	"github.com/hongweikkx/qzy-admin/template/icon"
+	"github.com/shanhuhai/qzy-admin/modules/language"
+	"github.com/shanhuhai/qzy-admin/template/icon"
 )
 
 var (

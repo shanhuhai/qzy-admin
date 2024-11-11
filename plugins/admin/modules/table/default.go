@@ -11,20 +11,20 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hongweikkx/qzy-admin/context"
-	"github.com/hongweikkx/qzy-admin/modules/config"
+	"github.com/shanhuhai/qzy-admin/context"
+	"github.com/shanhuhai/qzy-admin/modules/config"
 
-	"github.com/hongweikkx/qzy-admin/modules/db"
-	"github.com/hongweikkx/qzy-admin/modules/db/dialect"
-	errs "github.com/hongweikkx/qzy-admin/modules/errors"
-	"github.com/hongweikkx/qzy-admin/modules/language"
-	"github.com/hongweikkx/qzy-admin/modules/logger"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/modules"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/constant"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/form"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/paginator"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/parameter"
-	"github.com/hongweikkx/qzy-admin/template/types"
+	"github.com/shanhuhai/qzy-admin/modules/db"
+	"github.com/shanhuhai/qzy-admin/modules/db/dialect"
+	errs "github.com/shanhuhai/qzy-admin/modules/errors"
+	"github.com/shanhuhai/qzy-admin/modules/language"
+	"github.com/shanhuhai/qzy-admin/modules/logger"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/modules"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/modules/constant"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/modules/form"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/modules/paginator"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/modules/parameter"
+	"github.com/shanhuhai/qzy-admin/template/types"
 )
 
 // DefaultTable is an implementation of table.Table

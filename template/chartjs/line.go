@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"html/template"
 
-	template2 "github.com/hongweikkx/qzy-admin/template"
+	template2 "github.com/shanhuhai/qzy-admin/template"
 )
 
 type LineChart struct {

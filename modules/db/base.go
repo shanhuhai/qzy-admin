@@ -5,7 +5,7 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/hongweikkx/qzy-admin/modules/config"
+	"github.com/shanhuhai/qzy-admin/modules/config"
 	"xorm.io/xorm"
 )
 

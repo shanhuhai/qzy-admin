@@ -10,24 +10,24 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hongweikkx/qzy-admin/modules/system"
+	"github.com/shanhuhai/qzy-admin/modules/system"
 
-	"github.com/hongweikkx/qzy-admin/modules/logger"
+	"github.com/shanhuhai/qzy-admin/modules/logger"
 
-	"github.com/hongweikkx/qzy-admin/modules/config"
+	"github.com/shanhuhai/qzy-admin/modules/config"
 
 	"github.com/GoAdminGroup/html"
 	"github.com/gin-gonic/gin"
-	"github.com/hongweikkx/qzy-admin/context"
-	"github.com/hongweikkx/qzy-admin/modules/auth"
-	"github.com/hongweikkx/qzy-admin/modules/language"
-	"github.com/hongweikkx/qzy-admin/modules/remote_server"
-	"github.com/hongweikkx/qzy-admin/modules/utils"
-	"github.com/hongweikkx/qzy-admin/plugins"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/guard"
-	template2 "github.com/hongweikkx/qzy-admin/template"
-	"github.com/hongweikkx/qzy-admin/template/types"
-	"github.com/hongweikkx/qzy-admin/template/types/form"
+	"github.com/shanhuhai/qzy-admin/context"
+	"github.com/shanhuhai/qzy-admin/modules/auth"
+	"github.com/shanhuhai/qzy-admin/modules/language"
+	"github.com/shanhuhai/qzy-admin/modules/remote_server"
+	"github.com/shanhuhai/qzy-admin/modules/utils"
+	"github.com/shanhuhai/qzy-admin/plugins"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/modules/guard"
+	template2 "github.com/shanhuhai/qzy-admin/template"
+	"github.com/shanhuhai/qzy-admin/template/types"
+	"github.com/shanhuhai/qzy-admin/template/types/form"
 )
 
 func (h *Handler) Plugins(ctx *context.Context) {

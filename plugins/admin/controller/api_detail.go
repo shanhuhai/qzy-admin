@@ -3,15 +3,15 @@ package controller
 import (
 	"fmt"
 
-	"github.com/hongweikkx/qzy-admin/context"
-	"github.com/hongweikkx/qzy-admin/modules/auth"
-	"github.com/hongweikkx/qzy-admin/modules/language"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/modules"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/constant"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/parameter"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/response"
-	"github.com/hongweikkx/qzy-admin/template/types"
-	"github.com/hongweikkx/qzy-admin/template/types/form"
+	"github.com/shanhuhai/qzy-admin/context"
+	"github.com/shanhuhai/qzy-admin/modules/auth"
+	"github.com/shanhuhai/qzy-admin/modules/language"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/modules"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/modules/constant"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/modules/parameter"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/modules/response"
+	"github.com/shanhuhai/qzy-admin/template/types"
+	"github.com/shanhuhai/qzy-admin/template/types/form"
 )
 
 func (h *Handler) ApiDetail(ctx *context.Context) {

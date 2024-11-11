@@ -4,14 +4,14 @@ import (
 	"log"
 	"sync"
 
-	"github.com/hongweikkx/qzy-admin/modules/db/dialect"
-	"github.com/hongweikkx/qzy-admin/modules/logger"
+	"github.com/shanhuhai/qzy-admin/modules/db/dialect"
+	"github.com/shanhuhai/qzy-admin/modules/logger"
 
-	"github.com/hongweikkx/qzy-admin/context"
-	"github.com/hongweikkx/qzy-admin/modules/db"
-	"github.com/hongweikkx/qzy-admin/modules/service"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/models"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/modules"
+	"github.com/shanhuhai/qzy-admin/context"
+	"github.com/shanhuhai/qzy-admin/modules/db"
+	"github.com/shanhuhai/qzy-admin/modules/service"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/models"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/modules"
 	"golang.org/x/crypto/bcrypt"
 )
 

@@ -6,14 +6,14 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/hongweikkx/qzy-admin/context"
-	"github.com/hongweikkx/qzy-admin/modules/config"
-	"github.com/hongweikkx/qzy-admin/modules/constant"
-	"github.com/hongweikkx/qzy-admin/modules/language"
-	"github.com/hongweikkx/qzy-admin/modules/utils"
-	template2 "github.com/hongweikkx/qzy-admin/template"
-	"github.com/hongweikkx/qzy-admin/template/icon"
-	"github.com/hongweikkx/qzy-admin/template/types"
+	"github.com/shanhuhai/qzy-admin/context"
+	"github.com/shanhuhai/qzy-admin/modules/config"
+	"github.com/shanhuhai/qzy-admin/modules/constant"
+	"github.com/shanhuhai/qzy-admin/modules/language"
+	"github.com/shanhuhai/qzy-admin/modules/utils"
+	template2 "github.com/shanhuhai/qzy-admin/template"
+	"github.com/shanhuhai/qzy-admin/template/icon"
+	"github.com/shanhuhai/qzy-admin/template/types"
 )
 
 type PopUpAction struct {

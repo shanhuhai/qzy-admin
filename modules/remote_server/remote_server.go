@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/hongweikkx/qzy-admin/modules/system"
+	"github.com/shanhuhai/qzy-admin/modules/system"
 
-	"github.com/hongweikkx/qzy-admin/modules/logger"
+	"github.com/shanhuhai/qzy-admin/modules/logger"
 )
 
 const (

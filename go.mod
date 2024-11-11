@@ -1,4 +1,4 @@
-module github.com/hongweikkx/qzy-admin
+module github.com/shanhuhai/qzy-admin
 
 go 1.21.5
 

@@ -6,13 +6,13 @@ import (
 	"math"
 	"strconv"
 
-	"github.com/hongweikkx/qzy-admin/context"
-	"github.com/hongweikkx/qzy-admin/modules/language"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/form"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/parameter"
-	template2 "github.com/hongweikkx/qzy-admin/template"
-	"github.com/hongweikkx/qzy-admin/template/components"
-	"github.com/hongweikkx/qzy-admin/template/types"
+	"github.com/shanhuhai/qzy-admin/context"
+	"github.com/shanhuhai/qzy-admin/modules/language"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/modules/form"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/modules/parameter"
+	template2 "github.com/shanhuhai/qzy-admin/template"
+	"github.com/shanhuhai/qzy-admin/template/components"
+	"github.com/shanhuhai/qzy-admin/template/types"
 )
 
 type Config struct {

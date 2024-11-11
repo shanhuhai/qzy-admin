@@ -9,18 +9,18 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/hongweikkx/qzy-admin/modules/config"
+	"github.com/shanhuhai/qzy-admin/modules/config"
 
-	"github.com/hongweikkx/qzy-admin/context"
-	"github.com/hongweikkx/qzy-admin/modules/db"
-	"github.com/hongweikkx/qzy-admin/modules/errors"
-	"github.com/hongweikkx/qzy-admin/modules/language"
-	"github.com/hongweikkx/qzy-admin/modules/logger"
-	"github.com/hongweikkx/qzy-admin/modules/utils"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/modules"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/parameter"
-	"github.com/hongweikkx/qzy-admin/template/types/form"
-	"github.com/hongweikkx/qzy-admin/template/types/table"
+	"github.com/shanhuhai/qzy-admin/context"
+	"github.com/shanhuhai/qzy-admin/modules/db"
+	"github.com/shanhuhai/qzy-admin/modules/errors"
+	"github.com/shanhuhai/qzy-admin/modules/language"
+	"github.com/shanhuhai/qzy-admin/modules/logger"
+	"github.com/shanhuhai/qzy-admin/modules/utils"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/modules"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/modules/parameter"
+	"github.com/shanhuhai/qzy-admin/template/types/form"
+	"github.com/shanhuhai/qzy-admin/template/types/table"
 )
 
 // FieldModel is the single query result.

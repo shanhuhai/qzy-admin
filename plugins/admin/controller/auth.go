@@ -6,17 +6,17 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/hongweikkx/qzy-admin/context"
-	"github.com/hongweikkx/qzy-admin/modules/auth"
-	"github.com/hongweikkx/qzy-admin/modules/config"
-	"github.com/hongweikkx/qzy-admin/modules/db"
-	"github.com/hongweikkx/qzy-admin/modules/logger"
-	"github.com/hongweikkx/qzy-admin/modules/system"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/models"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/captcha"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/response"
-	"github.com/hongweikkx/qzy-admin/template"
-	"github.com/hongweikkx/qzy-admin/template/types"
+	"github.com/shanhuhai/qzy-admin/context"
+	"github.com/shanhuhai/qzy-admin/modules/auth"
+	"github.com/shanhuhai/qzy-admin/modules/config"
+	"github.com/shanhuhai/qzy-admin/modules/db"
+	"github.com/shanhuhai/qzy-admin/modules/logger"
+	"github.com/shanhuhai/qzy-admin/modules/system"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/models"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/modules/captcha"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/modules/response"
+	"github.com/shanhuhai/qzy-admin/template"
+	"github.com/shanhuhai/qzy-admin/template/types"
 )
 
 // Auth check the input password and username for authentication.

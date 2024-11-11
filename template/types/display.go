@@ -6,9 +6,9 @@ import (
 	"html/template"
 	"strings"
 
-	"github.com/hongweikkx/qzy-admin/context"
-	"github.com/hongweikkx/qzy-admin/modules/config"
-	"github.com/hongweikkx/qzy-admin/template/types/form"
+	"github.com/shanhuhai/qzy-admin/context"
+	"github.com/shanhuhai/qzy-admin/modules/config"
+	"github.com/shanhuhai/qzy-admin/template/types/form"
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"
 )

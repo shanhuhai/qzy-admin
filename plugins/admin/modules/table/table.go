@@ -5,13 +5,13 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/hongweikkx/qzy-admin/context"
-	"github.com/hongweikkx/qzy-admin/modules/db"
-	"github.com/hongweikkx/qzy-admin/modules/service"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/form"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/paginator"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/modules/parameter"
-	"github.com/hongweikkx/qzy-admin/template/types"
+	"github.com/shanhuhai/qzy-admin/context"
+	"github.com/shanhuhai/qzy-admin/modules/db"
+	"github.com/shanhuhai/qzy-admin/modules/service"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/modules/form"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/modules/paginator"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/modules/parameter"
+	"github.com/shanhuhai/qzy-admin/template/types"
 )
 
 type Generator func(ctx *context.Context) Table

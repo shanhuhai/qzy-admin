@@ -3,9 +3,9 @@ package types
 import (
 	"html/template"
 
-	"github.com/hongweikkx/qzy-admin/modules/menu"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/modules"
-	"github.com/hongweikkx/qzy-admin/template/types/form"
+	"github.com/shanhuhai/qzy-admin/modules/menu"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/modules"
+	"github.com/shanhuhai/qzy-admin/template/types/form"
 )
 
 type FormAttribute interface {

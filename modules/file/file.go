@@ -8,7 +8,7 @@ import (
 	"path"
 	"sync"
 
-	"github.com/hongweikkx/qzy-admin/plugins/admin/modules"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/modules"
 )
 
 // Uploader is a file uploader which contains the method Upload.

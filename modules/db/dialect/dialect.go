@@ -3,7 +3,7 @@ package dialect
 import (
 	"strings"
 
-	"github.com/hongweikkx/qzy-admin/modules/config"
+	"github.com/shanhuhai/qzy-admin/modules/config"
 )
 
 // Dialect is methods set of different driver.

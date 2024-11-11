@@ -6,11 +6,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/hongweikkx/qzy-admin/modules/db/dialect"
+	"github.com/shanhuhai/qzy-admin/modules/db/dialect"
 
-	"github.com/hongweikkx/qzy-admin/modules/db"
-	"github.com/hongweikkx/qzy-admin/modules/language"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/models"
+	"github.com/shanhuhai/qzy-admin/modules/db"
+	"github.com/shanhuhai/qzy-admin/modules/language"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/models"
 )
 
 // Item is an menu item.

@@ -3,7 +3,7 @@ package db
 import (
 	"database/sql"
 
-	"github.com/hongweikkx/qzy-admin/modules/config"
+	"github.com/shanhuhai/qzy-admin/modules/config"
 )
 
 // SQLTx is an in-progress database transaction.

@@ -3,9 +3,9 @@ package action
 import (
 	"html/template"
 
-	"github.com/hongweikkx/qzy-admin/context"
-	"github.com/hongweikkx/qzy-admin/modules/constant"
-	"github.com/hongweikkx/qzy-admin/template/types"
+	"github.com/shanhuhai/qzy-admin/context"
+	"github.com/shanhuhai/qzy-admin/modules/constant"
+	"github.com/shanhuhai/qzy-admin/template/types"
 )
 
 type FileUploadAction struct {

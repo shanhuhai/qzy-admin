@@ -7,12 +7,12 @@ import (
 	"strconv"
 	textTmpl "text/template"
 
-	"github.com/hongweikkx/qzy-admin/context"
-	"github.com/hongweikkx/qzy-admin/modules/config"
-	"github.com/hongweikkx/qzy-admin/modules/menu"
-	"github.com/hongweikkx/qzy-admin/modules/system"
-	"github.com/hongweikkx/qzy-admin/modules/utils"
-	"github.com/hongweikkx/qzy-admin/plugins/admin/models"
+	"github.com/shanhuhai/qzy-admin/context"
+	"github.com/shanhuhai/qzy-admin/modules/config"
+	"github.com/shanhuhai/qzy-admin/modules/menu"
+	"github.com/shanhuhai/qzy-admin/modules/system"
+	"github.com/shanhuhai/qzy-admin/modules/utils"
+	"github.com/shanhuhai/qzy-admin/plugins/admin/models"
 )
 
 // Attribute is the component interface of template. Every component of
